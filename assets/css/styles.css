@@ -130,7 +130,16 @@
 	}
 
 	.dev-img {
-		height: 30vh;
+		height: 20vh;
+		margin-bottom: 5vh;
+	}
+
+	.contact-cont {
+		margin-top: 7vh;
+	}
+
+	.chart-cont {
+		margin-top: 40%;
 	}
 }
 
@@ -159,7 +168,16 @@
 		1px 1px 0 #fff;
 		font-size: 50px; 
 	}
+
+	.chart-cont {
+		margin-top: 10vh;
+	}
+
 	.proj-img {
 		height: 55vh;
+	}
+
+	.contact-cont {
+		margin-top: 8vh;
 	}
 }
