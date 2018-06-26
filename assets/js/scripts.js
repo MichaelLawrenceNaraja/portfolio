@@ -11,7 +11,7 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['AboutMe', 'Portfolio', 'Skills', 'ContactMe'],
+		anchors:['about_me', 'portfolio', 'skills', 'contact_me'],
 		navigation: false,
 		navigationPosition: 'left',
 		navigationTooltips: ['Introduction', 'Portfolio', 'Skills', 'Contact Me'],
