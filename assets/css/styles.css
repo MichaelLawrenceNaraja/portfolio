@@ -135,7 +135,7 @@
 	}
 
 	.contact-cont {
-		margin-top: 7vh;
+		margin-top: 5vh;
 	}
 
 	.chart-cont {
@@ -178,6 +178,10 @@
 	}
 
 	.contact-cont {
-		margin-top: 8vh;
+		margin-top: 4vh;
+	}
+
+	.dev-img {
+		height: 20vh;
 	}
 }
