@@ -20,11 +20,6 @@
 	color:inherit;
 }
 
-.csp-icon {
-	max-height: 300px;
-	max-width: 350px;
-}
-
 .csp-1-title {
 	font-family: 'PT Sans Caption', sans-serif;
 }
@@ -103,8 +98,7 @@
 	}
 
 	.dev-img {
-		height: 125px;
-		width: 125px;
+		height: 30vh;
 	}
 	/*End Progress Bar CSS*/
 }
@@ -132,13 +126,7 @@
 	}
 
 	.proj-img {
-		height: 506px;
-		width: 900px;
-	}
-
-	.dev-img {
-		height: 200px;
-		width: 200px;
+		height: 55vh;
 	}
 }
 
@@ -168,7 +156,6 @@
 		font-size: 50px; 
 	}
 	.proj-img {
-		height: 506px;
-		width: 900px;
+		height: 55vh;
 	}
 }
