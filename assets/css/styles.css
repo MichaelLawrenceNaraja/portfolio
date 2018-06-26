@@ -130,6 +130,16 @@
 		1px 1px 0 #fff;
 		font-size: 50px; 
 	}
+
+	.proj-img {
+		height: 506px;
+		width: 900px;
+	}
+
+	.dev-img {
+		height: 200px;
+		width: 200px;
+	}
 }
 
 /*Personal Computer*/
