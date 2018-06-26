@@ -1,0 +1,170 @@
+.section {
+	max-width: 100%;
+}
+
+#aboutMe {
+	font-family: 'Gochi Hand', cursive;
+}
+
+#works {
+	font-family: 'Chelsea Market', cursive;
+	color: red;
+}
+
+.btn-link {
+	color:inherit;
+}
+
+.btn-link:hover {
+	text-decoration: none;
+	color:inherit;
+}
+
+.csp-icon {
+	max-height: 300px;
+	max-width: 350px;
+}
+
+.csp-1-title {
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+.csp-2-title {
+	font-family: 'Cabin Sketch', cursive;
+}
+
+.csp-3-title {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.chart-cont {
+	position: relative;
+	margin: auto;
+  	height: 100vh;
+  	width: 100vw;
+}
+
+#color-name {
+	color: black;
+	text-shadow:
+	-1px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
+}
+
+.highlighted-text {
+	color: white;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+/* MEDIA QUERIES */
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+	.desktop-view {
+		display: none;
+	}
+
+	.csp-icon {
+		max-height: 250px;
+		max-width: 300px;
+	}
+
+	.progress-bar {
+		width: 75%;
+	}
+
+	.skill-label {
+		font-size: 1.25em
+	}
+
+	/*Progress Bar*/
+	.html-progress,
+	.sql-progress {
+		width: 80%;
+	}
+	.php-progress {
+		width: 75%;
+	}
+	.css-progress,
+	.lar-progress {
+		width: 70%;
+	}
+	.cssf-progress,
+	.jq-progress {
+		width: 60%;
+	}
+	.js-progress {
+		width: 65%;
+	}
+
+	.dev-img {
+		height: 125px;
+		width: 125px;
+	}
+	/*End Progress Bar CSS*/
+}
+
+/*Tablet*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+	.mobile-view {
+		display: none;
+	}
+
+	.about-me-info {
+		font-size: 50px;
+	}
+
+	.csp-1-title,
+	.csp-2-title,
+	.csp-3-title {
+		color: black;
+		text-shadow:
+		-1px -1px 0 #fff,
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
+		font-size: 50px; 
+	}
+
+	#frontEnd,
+	#backEnd {
+		margin-top: 40%;
+	}
+}
+
+/*Personal Computer*/
+@media only screen and (min-width: 961px) {
+	.mobile-view {
+		display: none;
+	}
+
+	.about-me-info {
+		font-size: 50px;
+	}
+
+	#intro-text {
+		padding-top: 20%;
+	}
+
+	#frontEnd,
+	#backEnd {
+		margin-top: 10%;
+	}
+
+	.csp-1-title,
+	.csp-2-title,
+	.csp-3-title {
+		color: black;
+		text-shadow:
+		-1px -1px 0 #fff,
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
+		font-size: 50px; 
+	}
+}
